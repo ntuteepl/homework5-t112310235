@@ -10,7 +10,7 @@ if(call>800&&call<1500)
     df=(call*0.9)*0.9;
 
 if(call>=1500)
-df=(call*0.9)*0.9+(call-1500)*0.79;
+df=(call*0.9)*0.79;
 printf("%.1f\n", df);
 
 }
